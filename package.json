@@ -1,0 +1,15 @@
+{
+  "name": "mpeg-merger",
+  "version": "1.0.0",
+  "description": "Merges MPEG files (both mp4 and mp3) into one condensed file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tamayaren",
+  "license": "ISC",
+  "dependencies": {
+    "ffmpeg": "^0.0.4",
+    "fs-extra": "^10.1.0"
+  }
+}
