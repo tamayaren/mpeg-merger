@@ -8,10 +8,12 @@ Must have [Node.js](https://nodejs.org/en/download/) downloaded (Node.js 14+).
 
 ## Installation
 1. Download latest revision, extract to a folder.
-2. Right-click on directory > Open with Command Prompt.
+2. Right-click on extracted directory `> Open with Command Prompt`.
 3. Type `npm install` to get all required packages.
 4. Create a "input" folder and put all the merging files.
 5. Type `npm start` and wait for the merging process to complete.
+
+If there is no `Open with Command Prompt` option in your context menu, you may have to manually `cd` pointed to the extracted directory.
 
 # Naming Convention
 The video and audio files **must have the same name**. This is **case-sensitive**, so minor discrepencies will be noticed.
