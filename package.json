@@ -4,12 +4,16 @@
   "description": "Merges MPEG files (both mp4 and mp3) into one condensed file.",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Tamayaren",
   "license": "ISC",
   "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "ffmpeg": "^0.0.4",
+    "ffmpeg-installer": "^1.0.2",
+    "fluent-ffmpeg": "^2.1.2",
     "fs-extra": "^10.1.0"
   }
 }
